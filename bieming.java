@@ -1,10 +1,15 @@
 // 练习2：别名机制
+// 练习3：方法调用时的别名机制
 class onmyoji {
     float SSR;
 }
 // @author 晴和羽织
 public class bieming {
+    static void f(onmyoji y){
+        y.SSR = 66; //与C和C++有所区别，实际改变的是f()之外的对象。
+    }
     public static void main(String[] args) {
+        System.out.println("<-------------赋值别名机制------------->");
         onmyoji q1 = new onmyoji();
         onmyoji q2 = new onmyoji();
         onmyoji q3 = new onmyoji();
@@ -25,5 +30,13 @@ public class bieming {
         System.out.println("2: q3.SSR: " + q3.SSR + ",  q4.SSR:" + q4.SSR);
         q4.SSR = 88;
         System.out.println("3: q3.SSR: " + q3.SSR + ",  q4.SSR:" + q4.SSR);
+
+        System.out.println("<-------------方法调用时别名机制------------->");
+        q1.SSR = 22;
+        System.out.println("1: q1.SSR: " + q1.SSR);
+        f(q1);
+        System.out.println("2: q1.SSR: " + q1.SSR);
     }
 }
+
+
