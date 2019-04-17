@@ -1,5 +1,6 @@
 // 练习2：别名机制
 // 练习3：方法调用时的别名机制
+// @author 晴和羽织
 class onmyoji {
     float SSR;
 }
