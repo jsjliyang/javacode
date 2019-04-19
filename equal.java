@@ -7,7 +7,7 @@ class Pet {
 }
 
 public class equal {
-    public static void main(String args[]){
+    public static void main(String[] args){
         Pet p1 = new Pet();
         p1.name = "Pikachu";
         p1.says = "Pikapi";

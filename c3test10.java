@@ -1,7 +1,7 @@
 // 练习10：按位操作符
 // @author 晴和羽织
-public class test10 {
-    public static void main(String args[]){
+public class c3test10 {
+    public static void main(String[] args){
         int n1 = 0xAAA;
         int n2 = 0xAAB;
         System.out.println("n1:" + Integer.toBinaryString(n1) + "   n2:" + Integer.toBinaryString(n2));
