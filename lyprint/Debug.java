@@ -1,3 +1,4 @@
+// @author 晴和羽织
 package lyprint;
 
 public class Debug {
