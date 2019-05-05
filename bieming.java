@@ -3,6 +3,13 @@
 // @author 晴和羽织
 class onmyoji {
     float SSR;
+    public void Name(){
+        System.out.println("The name of onmyoji is 晴明");
+    }
+    onmyoji(){}
+    onmyoji(float i){
+        System.out.println("onmyoji has be created with a float i");
+    }
 }
 // @author 晴和羽织
 public class bieming {
