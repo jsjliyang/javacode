@@ -1,8 +1,8 @@
+// 第9章练习11
+// @author 晴和羽织
 import interfaces.Apply;
 import interfaces.Processor;
 
-// 第9章练习11
-// @author 晴和羽织
 class CharShift{
     static String swap(String s){
         StringBuilder s1 = new StringBuilder(s);
