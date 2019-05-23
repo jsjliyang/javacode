@@ -1,5 +1,4 @@
 // 第10章Sequence.java
-//// Holds a sequence of Objects.
 // @author 晴和羽织
 interface Selector {
   boolean end();
@@ -34,6 +33,4 @@ public class Sequence {
       selector.next();
     }
   }
-} /* Output:
-0 1 2 3 4 5 6 7 8 9
-*///:~
+}
