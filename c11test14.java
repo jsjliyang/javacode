@@ -1,8 +1,8 @@
-// 第11章 练习12
+// 第11章 练习14
 // @author 晴和羽织
 import java.util.*;
 import static lyprint.Print.*;
-public class c11test13 {
+public class c11test14 {
     public static void main(String[] args) {
         LinkedList<Integer> list = new LinkedList<Integer>();
         ListIterator<Integer> it = list.listIterator();
