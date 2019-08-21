@@ -8,9 +8,9 @@ class RandomShapeGenerator1 implements Iterable<Shape> {
         this.quantity = quantity;
     }
     public Iterator<Shape> iterator() {
+        System.out.println("Here is iterator");
         return new Iterator<Shape>() {
             private int count;
-
             @Override
             public boolean hasNext() {
                 return count < quantity;
