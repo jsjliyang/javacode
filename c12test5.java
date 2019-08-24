@@ -1,4 +1,4 @@
-// 第12章 练习1&2&3
+// 第12章 练习5
 // @author 晴和羽织
 import static lyprint.Print.printl;
 class ResumerException extends Exception {}

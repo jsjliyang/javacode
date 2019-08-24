@@ -1,4 +1,4 @@
-// 第12章 练习1&2&3
+// 第12章 练习6
 // @author 晴和羽织
 import java.io.*;
 import java.util.logging.Logger;
